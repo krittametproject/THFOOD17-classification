@@ -12,7 +12,7 @@ def data_explor():
     y = list(count_data.values())
     plt.bar(x, y)
     plt.xticks(rotation=90)
-    # plt.show()
+    plt.show()
 
     #after explor
     count_data = {i:len(os.listdir(train_path+"/"+i)) for i in os.listdir(train_path) if len(os.listdir(train_path+"/"+i)) <= 200}
@@ -20,7 +20,7 @@ def data_explor():
     count = list(count_data.values())
     plt.bar(name, count)
     plt.xticks(rotation=90)
-    # plt.show()
+    plt.show()
     return name
 
 def data_prep(selected_data):
