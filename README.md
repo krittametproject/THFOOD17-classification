@@ -1,2 +1,2 @@
 # THFOOD17-classification
-Using Convolution Neural Network to classify 17 class of Thai food
+Using Convolution Neural Network and SVM to classifying 17 class of Thai food
